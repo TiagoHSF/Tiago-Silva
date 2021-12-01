@@ -7,6 +7,7 @@ import { SobreMimComponent } from './sobre-mim/sobre-mim.component';
 import { HomeComponent } from './home/home.component';
 import { CertificadoComponent } from './certificado/certificado.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ExperienciaComponent } from './experiencia/experiencia.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { InicioComponent } from './inicio/inicio.component';
     SobreMimComponent,
     HomeComponent,
     CertificadoComponent,
-    InicioComponent
+    InicioComponent,
+    ExperienciaComponent
   ],
   imports: [
     BrowserModule,
