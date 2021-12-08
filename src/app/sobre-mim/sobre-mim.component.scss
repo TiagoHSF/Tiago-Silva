@@ -15,3 +15,45 @@
     margin-top: 10% !important;
 }*/
 
+.botao-ide {
+    position: absolute;
+    background-color: #f2f2f5;
+    border-radius: 4px;
+    width: 54%;
+    left: 150%;
+    top: 5%;
+    border: 2px;
+    height: 10%;
+}
+
+.botao-linguagens {
+    position: absolute;
+    background-color: #f2f2f5;
+    border-radius: 4px;
+    width: 54%;
+    left: 150%;
+    top: 25%;
+    border: 2px;
+    height: 10%;
+}
+
+.botao-aws {
+    position: absolute;
+    background-color: #f2f2f5;
+    border-radius: 4px;
+    width: 54%;
+    left: 150%;
+    top: 45%;
+    border: 2px;
+    height: 10%;
+}
+
+.texto-interno-button {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #0e8d52;
+}
