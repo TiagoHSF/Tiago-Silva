@@ -1,39 +1,37 @@
 import { Component, OnInit } from '@angular/core';
-import Swal from 'sweetalert2'
-import 'sweetalert2/src/sweetalert2.scss'
+import Swal from 'sweetalert2';
+import 'sweetalert2/src/sweetalert2.scss';
 @Component({
   selector: 'app-sobre-mim',
   templateUrl: './sobre-mim.component.html',
-  styleUrls: ['./sobre-mim.component.scss']
+  styleUrls: ['./sobre-mim.component.scss'],
 })
 export class SobreMimComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  abrirModalIDE() {
+    Swal.fire({
+      title: 'CONHECIMENTO EM IDES',
+      confirmButtonText: 'Fechar',
+      text: 'Visual Studio Code, IntelliJ, Eclipse',
+    });
   }
 
-  abrirModalIDE(){
+  abrirModalLinguagens() {
     Swal.fire({
-      title: "CONHECIMENTO EM IDES",
-      confirmButtonText: "Fechar",
-      text: "Visual Studio Code, IntelliJ, Eclipse"
-    })
+      title: 'LINGUAGENS DE PROGRAMAÇÃO',
+      confirmButtonText: 'Fechar',
+      text: 'TypeScript, Java, JavaScript && HTML, CSS',
+    });
   }
 
-  abrirModalLinguagens(){
+  abrirModalAws() {
     Swal.fire({
-      title: "LINGUAGENS DE PROGRAMAÇÃO",
-      confirmButtonText: "Fechar",
-      text: "TypeScript, Java, SQL"
-    })
-  }
-
-   abrirModalAws(){
-    Swal.fire({
-      title: "INFRAESTRUTURA",
-      confirmButtonText: "Fechar",
-      text: "EC2, S3, ELB, RDS, SQS, SNS, SES, REDIS"
-    })
+      title: 'INFRAESTRUTURA',
+      confirmButtonText: 'Fechar',
+      text: 'EC2, S3, ELB, RDS, SQS, SNS, SES, REDIS',
+    });
   }
 }
