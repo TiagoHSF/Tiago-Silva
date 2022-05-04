@@ -31,7 +31,7 @@ export class SobreMimComponent implements OnInit {
     Swal.fire({
       title: 'INFRAESTRUTURA',
       confirmButtonText: 'Fechar',
-      text: 'EC2, S3, ELB, RDS, SQS, SNS, SES, REDIS',
+      text: 'Amazon AWS e serviços, Docker, ApiRest, Kubernetes,',
     });
   }
 }
