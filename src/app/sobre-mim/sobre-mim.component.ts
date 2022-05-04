@@ -34,4 +34,12 @@ export class SobreMimComponent implements OnInit {
       text: 'Amazon AWS e serviços, Docker, ApiRest, Kubernetes,',
     });
   }
+
+  abrirModalConhecimentos() {
+    Swal.fire({
+      title: 'INFRAESTRUTURA',
+      confirmButtonText: 'Fechar',
+      text: 'Amazon AWS e serviços, Docker, ApiRest, Kubernetes,',
+    });
+  }
 }
