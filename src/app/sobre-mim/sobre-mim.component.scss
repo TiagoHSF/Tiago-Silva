@@ -1,61 +1,30 @@
 .texto-sobre {
-    font-size: 25px; 
-    position: absolute; 
-    padding: 3%; 
-    flex: auto; 
-    width: 32%; 
-    margin-left: 0%; 
+    font-size: 25px;
+    position: absolute;
+    padding: 3%;
+    flex: auto;
+    width: 32%;
+    margin-left: 0%;
     margin-top: 3%;
-    text-align: justify; 
+    text-align: justify;
 }
 
-/*.img-tam {
-    width: 10% !important;
-    margin-left: 50% !important;
-    margin-top: 10% !important;
-}*/
-
-.botao-ide {
-    position: absolute;
-    background-color: #f2f2f5;
-    border-radius: 4px;
-    width: 54%;
-    left: 150%;
-    top: 5%;
-    border: 2px;
-    height: 10%;
+.text-color {
+  color: white;
 }
 
-.botao-linguagens {
-    position: absolute;
-    background-color: #f2f2f5;
-    border-radius: 4px;
-    width: 54%;
-    left: 150%;
-    top: 25%;
-    border: 2px;
-    height: 10%;
-}
-
-.botao-aws {
-    position: absolute;
-    background-color: #f2f2f5;
-    border-radius: 4px;
-    width: 54%;
-    left: 150%;
-    top: 45%;
-    border: 2px;
-    height: 10%;
-}
-
-.texto-interno-button {
-    font-size: 14px;
-    font-weight: 600;
+button {
+  border-radius: 0.4rem;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  width: 17rem;
+  height: 3rem;
 }
 
 button:hover {
     color: #ffffff;
-    background-color: #0e8d52;
+    background-color: #272727;
+    transform: rotate(2deg);
 }
 
 .conversar {
@@ -65,6 +34,6 @@ button:hover {
     left: 25%;
 }
 
-a:link { 
-    text-decoration:none; 
+a:link {
+    text-decoration:none;
 }

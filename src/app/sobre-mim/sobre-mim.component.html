@@ -1,20 +1,25 @@
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-<div>
-    <body style="font-weight: 100;" class="card-container justificado texto-sobre">
-      Meu nome é Tiago Henrique, nasci no ano de 2002 em Itajubá
-      Minas Gerais, estudante e apaixonado pela área de TI e atuante como desenvolvedor FullStack.
-      Sou uma pessoa comunicativa, animada e pronta para enfrentar novos desafios, dedicado a aprender 
-      cada vez mais, proativo, gosto de trabalhar em equipe, auxiliar os colegas. Meu tempo livre me dedico 
-      a estudar, praticar esportes, passear e estar em contato com a natureza.
-    <body>
-
-      <a href="https://api.whatsapp.com/send?phone=5535988177898&text=Hello%2C%20what%20are%20you%20waiting%20for%20to%20call%20me%3F"
-        class="conversar"><i class="fa fa-commenting" aria-hidden="true"></i>Eaí, bora conversar?</a>
-      
-      <button class="botao-ide texto-interno-button" (click)="abrirModalIDE()"> IDES </button>
-      <button class="botao-linguagens texto-interno-button" (click)="abrirModalLinguagens()"> LINGUAGENS </button>
-      <button class="botao-aws texto-interno-button" (click)="abrirModalAws()"> INFRAESTRUTURA </button>
-
-
-  
+<div
+  style="font-weight: 100"
+  class="card-container justificado texto-sobre text-color"
+>
+  Meu nome é Tiago Henrique, nasci no ano de 2002 em Itajubá Minas Gerais,
+  estudante e apaixonado pela área de TI e atuante como desenvolvedor FullStack.
+  Sou uma pessoa comunicativa, animada e pronta para enfrentar novos desafios,
+  dedicado a aprender cada vez mais, proativo, gosto de trabalhar em equipe,
+  auxiliar os colegas. Meu tempo livre me dedico a estudar, praticar esportes,
+  passear e estar em contato com a natureza.
+  <a
+    href="https://api.whatsapp.com/send?phone=5535988177898&text=Hello%2C%20what%20are%20you%20waiting%20for%20to%20call%20me%3F"
+    class="conversar text-color"
+    ><i class="fa fa-commenting text-color" aria-hidden="true"></i>Eaí, bora
+    conversar?</a
+  >
+  <div>
+    <button (click)="abrirModalIDE()">IDES</button>
+    <button (click)="abrirModalLinguagens()">LINGUAGENS</button>
+    <button (click)="abrirModalAws()">INFRAESTRUTURA</button>
+    <button (click)="abrirModalAws()">CONHECIMENTOS</button>
+  </div>
+</div>
